@@ -9,7 +9,7 @@ import Home from './components/Home'
 function App() {
 
   return (
-    <div className="relative">
+    <div>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />

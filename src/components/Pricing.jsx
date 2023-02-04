@@ -14,7 +14,7 @@ export default function Pricing() {
                     <p className="text-3xl mobile:text-4xl text-center text-gray-100 text-shadow-sm shadow-gray-900 laptop:mt-5">Bronze<sub className="text-sm p-[2px]">1</sub></p>
                     <div className="p-2">
                         <p className="text-4xl mobile:text-5xl tablet:text-4xl laptop:text-5xl text-center text-black-100 text-shadow-sm shadow-gray-400"><sup className="text-sm p-[2px] align-super">†</sup>Wedding - $1750</p>
-                        <p className="text-2xl mobile:text-3xl tablet:text-2xl laptop:text-3xl text-center text-black-100 text-shadow-sm shadow-gray-400"><span className="align-text-top text-[18px]">*</span>Private Party - $850</p>
+                        <p className="text-2xl mobile:text-3xl tablet:text-2xl laptop:text-3xl text-center text-black-100 text-shadow-sm shadow-gray-400"><span className="align-text-top text-[18px]">*</span>Private Party - $875</p>
                     </div>
                     <div>
                         <p className="text-[10px] px-2 text-center pb-1">Wedding includes Solo Musician performance and DJ for reception</p>

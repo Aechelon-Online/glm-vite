@@ -24,13 +24,13 @@ const SubscribeForm = () => {
           name="mc-embedded-subscribe-form"
           noValidate>
           
-            <div className="w-[100%] text-center mb-1 smallMobile:text-[0.75rem] tablet:text-[1rem]">
-              Sign UP today to receive 20% discount on your first event.
+            <div className="w-[100%] text-center mb-1 text-[0.75rem] tablet:text-[1rem]">
+              Sign UP today to receive <span className="font-bold">20%</span> discount on your first event.
             </div>
             <div className="flex p-1 mt-0 w-[70%] justify-center">
-            <div className="border-solid border-2 border-gray-600 rounded rounded-5 px-1 mx-2">
+            <div className="border-solid border-2 border-gray-600 rounded rounded-5 px-1 mx-1">
                     <input
-                      className="py-2 smallMobile:px-1 mobile:px-2 text-[0.75rem] tablet:text-[0.75rem]"
+                      className="py-2 smallMobile:px-1 mobile:px-1 w-[38vw] smallMobile:w-[150px] tablet:w-[200px] text-[0.75rem] tablet:text-[0.75rem]"
                       type="text"
                       name="FNAME"
                       placeholder="First Name"
@@ -38,9 +38,9 @@ const SubscribeForm = () => {
                     />
                 </div>
 
-                <div className="border-solid border-2 border-gray-600 rounded rounded-5 px-1 mx-2">
+                <div className="border-solid border-2 border-gray-600 rounded rounded-5 px-1 mx-1">
                     <input
-                      className="py-2 smallMobile:px-1 mobile:px-1 text-[0.75rem] tablet:text-[0.75rem] required email"
+                      className="py-2 smallMobile:px-1 mobile:px-1 w-[38vw] smallMobile:w-[150px] tablet:w-[200px] text-[0.75rem] tablet:text-[0.75rem] required email"
                       type="email"
                       name="EMAIL"
                       placeholder="Email"
@@ -58,7 +58,7 @@ const SubscribeForm = () => {
               <input type="text" name="b_93a75b530a80d657cb9b80df0_7af118c516" tabIndex="-1" value="" />
             </div>
                 <input
-                  className="border-solid border-2 border-gray-600 p-[7px] m-1 rounded rounded-2 mobile:text-[0.75rem] tablet:text-[0.875rem] button font-bold"
+                  className="border-solid text-white border-2 border-gray-600 p-[7px] m-1 rounded rounded-2 text-[0.75rem] tablet:text-[0.875rem] button font-bold bg-gradient-to-tr from-red-400 to-yellow-400"
                   type="submit"
                   value="GET DISCOUNT"
                   name="get discount"
