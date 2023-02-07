@@ -4,6 +4,7 @@ import Blog from './components/Blog'
 import Pricing from './components/Pricing'
 import Contact from './components/Contact'
 import Home from './components/Home'
+import FrontFormSolo from './components/FrontFormSolo'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/pricing" element={<Pricing />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/subscribe" element={<FrontFormSolo />} />
       </Routes>
     </div>
   )
