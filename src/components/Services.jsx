@@ -31,7 +31,7 @@ const Services = () => {
                 <div className="w-[30%] h-[100%] flex justify-center items-center text-[2.25rem] mr-[-5px] smallTablet:mr-0 smallTablet:flex-col smallMobile:text-[2.875rem] smallTablet:mb-2 laptop:flex-row laptop:mb-[-10px] laptop:w-[100%] laptop:h-[20vh]">FX
                 <img src={danceFloorLogo} className="w-[65px]  ml-[-10px] smallTablet:ml-0 smallMobile:w-[90px]" />
                 </div>
-                <p className="w-[60%] text-[0.75rem] px-4 mr-[-5px] smallTablet:mr-0 smallMobile:text-[0.9rem] tablet:text-[1.125rem] laptop:w-[80%]">Stepping up the ambience from laid-back to exciting and allowing you to relax share the experience.</p>
+                <p className="w-[60%] text-[0.75rem] px-4 mr-[-5px] smallTablet:mr-0 smallMobile:text-[0.9rem] tablet:text-[1.125rem] laptop:w-[80%]">Stepping up the ambience from laid-back to exciting and allowing you to relax and share the experience.</p>
             </div>   
         </div>
     )
