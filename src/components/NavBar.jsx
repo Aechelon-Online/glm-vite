@@ -41,7 +41,7 @@ const NavBar = () => {
 
                 <div className="logo-title absolute left-5 top-[3.75rem] flex items-center justify-between tablet:top-[4.25rem]">
                     <a href="/"><img src={glmLogoBlack} className="w-[3rem] smallMobile:w-[4rem] tablet:w-[6rem]" /></a>
-                    <h4 className="text-[0.875rem] smallMobile:text-xl px-3 tablet:text-2xl">Greg Luce Music</h4>
+                    <h3 className="text-[0.875rem] smallMobile:text-xl px-3 tablet:text-2xl">Greg Luce Music</h3>
                 </div>
                 <div className="absolute top-7 right-5 w-[40%] lg:max-w-sm tablet:top-[4.875rem]">
                     <ul className="hidden tablet:flex tablet:text-xl justify-between items-center">

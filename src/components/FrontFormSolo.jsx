@@ -16,7 +16,7 @@ const FrontForm = () => {
     <div className="flex h-screen bg-black justify-center items-center text-[0.625rem] bottom-0 text-white">
       <div className="flex justify-center mx-1">
         <form
-          className="w-[100%] max-w-[350px] tablet:max-w-[475px] h-[250px] bg-gray-800/50 border-solid border-2 border-gray-700 p-2 flex flex-col items-center justify-center validate"
+          className="w-[100%] max-w-[450px] tablet:max-w-[475px] h-[170px] bg-gray-800/50 border-solid border-2 border-gray-700 p-2 flex flex-col items-center justify-center validate"
           ref={formRef}
           action="https://greglucemusic.us8.list-manage.com/subscribe/post?u=93a75b530a80d657cb9b80df0&amp;id=7af118c516&amp;f_id=00fe1ee0f0"
           method="post"
